@@ -1,0 +1,153 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 47px;
+    margin-left: 42px;
+}
+
+.link-header {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.875px;
+    text-align: left;
+    margin-right: 32px;
+    cursor: pointer;
+    color: #17233D;
+}
+
+.button-header {
+    background: #6FBF44;
+    height: 51px;
+    width: 124px;
+    border-radius: 6px;
+    border: 2px solid #4CB538;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+}
+
+.imagem {
+    width: 595.18px;
+    height: 500px;
+    top: 246px;
+    left: 121px;
+    margin-top: 246px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.6px;
+    text-align: left;
+    margin-top: 342px;
+    margin-bottom: 47px;
+    color: #161A49;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    width: 493px;
+    height: 99px;
+    color: #4B505A;
+    margin-bottom: 55px;
+}
+
+.button-section {
+    height: 27px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44;
+    background: transparent;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .link-header {
+        display: none;
+    }
+    
+    .button-header {
+        font-size: 12px;
+        line-height: 18px;
+        width: 91px;
+        height: 31px;
+        margin-top: 47px;
+        margin-right: 42px;
+        margin-left: 50%;
+    }
+
+    main {
+       display: grid;
+       align-items: center;
+       width: 100vw;
+    }
+
+    .imagem {
+        width: 312px;
+        height: 288px;
+        order: 2;
+        margin-top: 59px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    section {
+        order: 1;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h1 {
+        width: 278px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        margin-top: 124px;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        width: 304px;
+        height: 165px;
+        margin-top: 29px;
+    }
+
+    .button-section {
+        display: block;
+        margin: 0 auto;
+    }
+}
